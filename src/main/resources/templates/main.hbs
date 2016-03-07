@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" data-framework="react">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}}</title>
+
+        {{#block "styles"}}{{/block}}
+
+    </head>
+    <body>
+
+        {{#block "content" }}
+            This is your dynamic content.
+        {{/block}}
+
+        {{> footer.hbs}}
+
+        {{#block "js"}}{{/block}}
+
+    </body>
+</html>
