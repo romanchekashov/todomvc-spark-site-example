@@ -24,4 +24,4 @@ ADD src /code/src
 RUN ["mvn", "package"]
 
 EXPOSE 4567
-CMD ["/usr/lib/jvm/java-8-openjdk-amd64/bin/java", "-Xms64m", "-Xmx64m",  "-jar", "target/todomvc-spark-site-example-jar-with-dependencies.jar"]
+CMD ["/usr/lib/jvm/java-8-openjdk-amd64/bin/java", "-Xms64m", "-Xmx64m",  "-jar", "target/todomvc-jar-with-dependencies.jar"]
